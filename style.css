@@ -1,0 +1,218 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+header {
+    width: 100%;
+    height: 220px;
+    background-color: #ffffff;
+    border: 12px solid #d4401f;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+h1{
+    width: 30%;
+}
+h1 img{
+    height: 200px;
+    margin: 10px 0px 0 10px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 10px;
+    background-color: #ffffff;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight:bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* top modifica la posición desde arriba y etc*/
+nav{
+    position: absolute;
+    top: 80px;
+    right: 110px;
+}
+.inicio{
+    width: 100%;
+    position: relative;
+    margin:0 auto;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin:0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border:2px solid black;
+    border-radius: 20px 20px 20px 20px;
+    height: 417px;
+}
+
+.productos li:hover{
+    border-color: #d4401f; 
+}
+
+.productos{
+   width:1050px;
+   margin:0 auto;
+   padding: 50px;
+}
+.productos h2{
+    font-size:30px;
+    font-weight: bold;
+}
+.productos li:hover h2{
+    font-size:33px;
+}
+.producto-descripcion{
+    font-size: 20px;
+}
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px ;
+}
+nav a:hover{
+    color:#d4401f;
+    ;
+}
+
+nav a:active{
+    color:#f3f710;
+    ;
+}
+footer{
+    text-align: center;
+    background: linear-gradient(45deg, #d4401f 5%, rgba(255, 166, 0, 0.829) 10% 90%, rgba(202, 7, 7, 0.808) 95% 100%);
+    height: 200px;
+    font-weight: bold;
+    color: #000000;
+}
+.principal{
+    padding: 3em 0;
+    background-color: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+    
+}
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    font-weight: bold;
+}
+
+.principal p{
+    margin: 0 0 1em;
+    text-align: justify;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style:italic;
+}
+.principal #mision{
+    text-align:center;
+}
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px;
+}
+.video{
+    margin-top: 100px;
+}
+.mapa{
+    padding:3em 0;
+    background:linear-gradient(#fefefe #888888);
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.mapaContenido{
+    width: 100%;
+    margin: 0 auto;
+}
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
+}
+.contenidoDiferenciales{
+  width: 80%;
+  margin: 0 auto;
+}
+.listaDiferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 100px 100px 0 50px;
+}
+.items{
+    line-height: 1.5;
+}
+.items:before{
+    content:"°"
+}
+.imagenDiferenciales{
+    width: 40%;
+    height: 400px;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+.imagenDiferenciales:hover{
+    opacity:0.3;
+}
+.video{
+    width: 70%;
+    margin: 1em auto;
+}
+
+ 
+
+@media screen and (max-width:900px){
+    
+    
+    header{
+        width: 112%;        
+    }
+    footer{
+        width: 120%;
+        
+    }
+    .Reformas{
+        display: inline;
+    }
+    .main{
+        width: 100%;
+        display: inline-block;
+    }
+    .principal{
+        margin:0 0 0 20px
+    }
+    .listaDiferenciales{
+        margin: 0 0 0 100px;
+        position: center center;
+    }
+    .imagenDiferenciales{
+        width: auto;
+        margin: 70px 0 0 50px ;
+        position: center center;
+    }
+    .mapa{
+        width: 118%;
+    }
+    .video{
+        margin: 70px 0 0 100px ;
+    }
+}
